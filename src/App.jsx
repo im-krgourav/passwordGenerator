@@ -56,13 +56,13 @@ function App() {
             Copy
           </button>
         </div>
-        <div className="flex text-sm gap-x-2">
-          <div className="flex items-center gap-x-1">
+        <div className="flex text-sm gap-x-5 pb-3">
+          <div className="flex items-center gap-x-1 ml-6 ">
             <input
               className="cursor-pointer"
               type="range"
               min={6}
-              max={24}
+              max={50}
               value={length}
               onChange={(e) => setLength(e.target.value)}
             />
