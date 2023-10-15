@@ -87,6 +87,14 @@ function App() {
             <label>Include CHaracters</label>
           </div>
         </div>
+        <div className="flex justify-center pb-3">
+          <button
+            onClick={passwordGenerator}
+            className=" outline-none bg-blue-700 text-white px-3 py-0.5 shrink-0 rounded-lg"
+          >
+            Generate New Password
+          </button>
+        </div>
       </div>
     </>
   );
